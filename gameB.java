@@ -1,19 +1,17 @@
 import java.util.Scanner;
 
-public class game{
+public class gameB{
 
     public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
 System.out.println("Who created Linux?\n1.A Penguin\n2.Linus Torvalds\n3.LinusTechTips");
 sc.nextLine();
 
-System.out.println("Who owns Github?\n1.Linus Torvalds\n2.Markus Persson\n2.Microsoft");
+System.out.println("Who owns Github?\n1.Linus Torvalds\n2.Markus Persson\n3.Microsoft");
 sc.nextLine();
 
-
-
 try {
-    System.out.print("Input first answer:");
+    System.out.print("Input first answer:S");
     sc.nextLine();
     
 } catch (Exception e) {
@@ -56,7 +54,6 @@ case "Microsoft":
     System.out.println("Sorry you input is invalid!");
         break;
 }
-
 
 sc.close();
 }
